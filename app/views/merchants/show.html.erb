@@ -1,5 +1,5 @@
-<h1>Merchant <%= @items.first[:attributes][:merchant_id] %></h1>
+<h1>Merchant <%= @facade.merchant_items.first.merchant_id %></h1>
 
-<% @items.each do |item| %>
-  <%= item[:attributes][:name] %><br><br>
+<% @facade.merchant_items.each do |item| %>
+  <%= item.name %><br><br>
 <% end %>

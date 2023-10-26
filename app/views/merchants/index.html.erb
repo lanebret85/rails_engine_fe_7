@@ -1,5 +1,5 @@
 <h1>Merchants</h1>
 
-<% @merchants.each do |merchant| %>
-  <%= link_to "#{merchant[:attributes][:name]}", "/merchants/#{merchant[:id].to_i}" %><br><br>
+<% @facade.all_merchants.each do |merchant| %>
+  <%= link_to "#{merchant.name}", "/merchants/#{merchant.id}" %><br><br>
 <% end %>
