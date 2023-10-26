@@ -1,10 +1,9 @@
 class MerchantsController < ApplicationController
   def index
-    # @facade = MerchantsFacade.new(params)
-    @merchants = BackendService.new.all_merchants
+    @facade = MerchantsFacade.new(params)
   end
 
   def show
-    @items = BackendService.new.merchant_items(params[:id])
+    @facade = MerchantsFacade.new(params)
   end
 end
