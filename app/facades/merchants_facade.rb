@@ -13,7 +13,7 @@ class MerchantsFacade
   def merchant_items
     items = BackendService.new.merchant_items(@merchant_id)
     items.map do |item|
-      Item.new(item)
+      MerchantItem.new(item)
     end
   end
 end
