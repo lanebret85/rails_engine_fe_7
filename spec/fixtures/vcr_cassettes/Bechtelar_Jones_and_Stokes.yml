@@ -1,0 +1,139 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/merchants/10/items
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"bf2dba36c5dc2337b95fa079b3336fc2"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 9cc76b71-53ea-4eec-a2ac-39b3bd7637e7
+      X-Runtime:
+      - '0.007135'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.04, sql.active_record;dur=1.06, instantiation.active_record;dur=0.10,
+        process_action.action_controller;dur=2.09
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"201","type":"item","attributes":{"name":"Item Explicabo
+        Ipsam","description":"Est facilis sunt molestias nam praesentium aspernatur.
+        Reiciendis tenetur culpa at repellat. Non illum nesciunt. Sed vel et odio
+        sint. Nemo sequi minima inventore.","unit_price":774.09,"merchant_id":10}},{"id":"202","type":"item","attributes":{"name":"Item
+        Molestias Molestiae","description":"Doloremque qui recusandae modi unde. Vitae
+        consequatur commodi recusandae sunt occaecati et. Autem vel sit quos voluptatem
+        excepturi.","unit_price":814.97,"merchant_id":10}},{"id":"203","type":"item","attributes":{"name":"Item
+        At Qui","description":"Sit nemo porro dolorum quasi impedit harum. Rerum dolore
+        libero totam laudantium sed distinctio aut. Officiis maiores non dignissimos
+        et quae. Veritatis quo et consequatur. Quaerat nihil voluptas.","unit_price":994.65,"merchant_id":10}},{"id":"204","type":"item","attributes":{"name":"Item
+        Aliquam Et","description":"Provident laudantium quis. Eveniet eos eos. Eos
+        ea rerum laborum ex. Enim mollitia eligendi pariatur nihil non voluptatem
+        consectetur.","unit_price":217.39,"merchant_id":10}},{"id":"205","type":"item","attributes":{"name":"Item
+        Ad Vel","description":"Ea harum neque aperiam sint quos. Ipsum quia reiciendis
+        nisi et corrupti maiores. Ea ab corporis.","unit_price":989.47,"merchant_id":10}},{"id":"206","type":"item","attributes":{"name":"Item
+        Laboriosam Sequi","description":"Quasi id vel. Et non et asperiores ut tempora
+        aut odit. Et eum porro consequatur consequatur non autem. Fugit iure porro
+        tenetur exercitationem. Quod quos in quo ut consequatur delectus modi.","unit_price":786.12,"merchant_id":10}}]}'
+  recorded_at: Thu, 26 Oct 2023 15:48:49 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/merchants/10/items
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"bf2dba36c5dc2337b95fa079b3336fc2"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 6787d1e9-7d1e-49e3-b679-238d574c558f
+      X-Runtime:
+      - '0.005326'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.03, sql.active_record;dur=0.74, instantiation.active_record;dur=0.06,
+        process_action.action_controller;dur=1.42
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"201","type":"item","attributes":{"name":"Item Explicabo
+        Ipsam","description":"Est facilis sunt molestias nam praesentium aspernatur.
+        Reiciendis tenetur culpa at repellat. Non illum nesciunt. Sed vel et odio
+        sint. Nemo sequi minima inventore.","unit_price":774.09,"merchant_id":10}},{"id":"202","type":"item","attributes":{"name":"Item
+        Molestias Molestiae","description":"Doloremque qui recusandae modi unde. Vitae
+        consequatur commodi recusandae sunt occaecati et. Autem vel sit quos voluptatem
+        excepturi.","unit_price":814.97,"merchant_id":10}},{"id":"203","type":"item","attributes":{"name":"Item
+        At Qui","description":"Sit nemo porro dolorum quasi impedit harum. Rerum dolore
+        libero totam laudantium sed distinctio aut. Officiis maiores non dignissimos
+        et quae. Veritatis quo et consequatur. Quaerat nihil voluptas.","unit_price":994.65,"merchant_id":10}},{"id":"204","type":"item","attributes":{"name":"Item
+        Aliquam Et","description":"Provident laudantium quis. Eveniet eos eos. Eos
+        ea rerum laborum ex. Enim mollitia eligendi pariatur nihil non voluptatem
+        consectetur.","unit_price":217.39,"merchant_id":10}},{"id":"205","type":"item","attributes":{"name":"Item
+        Ad Vel","description":"Ea harum neque aperiam sint quos. Ipsum quia reiciendis
+        nisi et corrupti maiores. Ea ab corporis.","unit_price":989.47,"merchant_id":10}},{"id":"206","type":"item","attributes":{"name":"Item
+        Laboriosam Sequi","description":"Quasi id vel. Et non et asperiores ut tempora
+        aut odit. Et eum porro consequatur consequatur non autem. Fugit iure porro
+        tenetur exercitationem. Quod quos in quo ut consequatur delectus modi.","unit_price":786.12,"merchant_id":10}}]}'
+  recorded_at: Thu, 26 Oct 2023 15:48:49 GMT
+recorded_with: VCR 6.2.0
