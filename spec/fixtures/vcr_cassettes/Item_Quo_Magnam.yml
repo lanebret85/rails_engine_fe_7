@@ -1,0 +1,165 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/items/9
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"6ee11c23f74c6fc71b2eb244078d6b6f"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 946b3e37-12a2-41e0-8706-3cb392840343
+      X-Runtime:
+      - '0.019648'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.06, sql.active_record;dur=12.92,
+        instantiation.active_record;dur=0.02, process_action.action_controller;dur=14.48
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"9","type":"item","attributes":{"name":"Item Quo Magnam","description":"Culpa
+        deleniti adipisci voluptates aut. Sed eum quisquam nisi. Voluptatem est rerum
+        est qui id reprehenderit. Molestiae laudantium non velit alias. Ipsa consequatur
+        modi quibusdam.","unit_price":225.82,"merchant_id":1}}}'
+  recorded_at: Thu, 26 Oct 2023 20:08:36 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/items/9
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"6ee11c23f74c6fc71b2eb244078d6b6f"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - a451ac5d-2b1f-4c79-b20e-b1c10f770f2a
+      X-Runtime:
+      - '0.005846'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.04, sql.active_record;dur=0.51, instantiation.active_record;dur=0.01,
+        process_action.action_controller;dur=0.87
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"9","type":"item","attributes":{"name":"Item Quo Magnam","description":"Culpa
+        deleniti adipisci voluptates aut. Sed eum quisquam nisi. Voluptatem est rerum
+        est qui id reprehenderit. Molestiae laudantium non velit alias. Ipsa consequatur
+        modi quibusdam.","unit_price":225.82,"merchant_id":1}}}'
+  recorded_at: Thu, 26 Oct 2023 20:08:36 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/items/9
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"6ee11c23f74c6fc71b2eb244078d6b6f"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 57ef7b7c-5f58-405d-bb17-b24398b21931
+      X-Runtime:
+      - '0.004479'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.03, sql.active_record;dur=0.48, instantiation.active_record;dur=0.01,
+        process_action.action_controller;dur=0.81
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"9","type":"item","attributes":{"name":"Item Quo Magnam","description":"Culpa
+        deleniti adipisci voluptates aut. Sed eum quisquam nisi. Voluptatem est rerum
+        est qui id reprehenderit. Molestiae laudantium non velit alias. Ipsa consequatur
+        modi quibusdam.","unit_price":225.82,"merchant_id":1}}}'
+  recorded_at: Thu, 26 Oct 2023 20:08:36 GMT
+recorded_with: VCR 6.2.0

@@ -1,0 +1,162 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/items/13
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"7642a791b0694ca2bea4c0cccd4bb919"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - f249a76a-63d5-4405-b738-c8ea3a50b465
+      X-Runtime:
+      - '0.007104'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.04, sql.active_record;dur=0.66, instantiation.active_record;dur=0.02,
+        process_action.action_controller;dur=1.45
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"13","type":"item","attributes":{"name":"Item Voluptatem
+        Sint","description":"Nostrum doloribus quia. Expedita vitae beatae cumque.
+        Aut ut illo aut eum.","unit_price":594.54,"merchant_id":1}}}'
+  recorded_at: Thu, 26 Oct 2023 20:09:07 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/items/13
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"7642a791b0694ca2bea4c0cccd4bb919"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - c0a7df08-a915-4ec4-ab95-a1fae01a4162
+      X-Runtime:
+      - '0.004598'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.03, sql.active_record;dur=0.27, instantiation.active_record;dur=0.01,
+        process_action.action_controller;dur=0.58
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"13","type":"item","attributes":{"name":"Item Voluptatem
+        Sint","description":"Nostrum doloribus quia. Expedita vitae beatae cumque.
+        Aut ut illo aut eum.","unit_price":594.54,"merchant_id":1}}}'
+  recorded_at: Thu, 26 Oct 2023 20:09:07 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/items/13
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"7642a791b0694ca2bea4c0cccd4bb919"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 5a8ccfe6-ffd7-4689-a7c3-348299a897d3
+      X-Runtime:
+      - '0.051140'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.05, sql.active_record;dur=5.23, instantiation.active_record;dur=0.02,
+        process_action.action_controller;dur=6.15
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"13","type":"item","attributes":{"name":"Item Voluptatem
+        Sint","description":"Nostrum doloribus quia. Expedita vitae beatae cumque.
+        Aut ut illo aut eum.","unit_price":594.54,"merchant_id":1}}}'
+  recorded_at: Thu, 26 Oct 2023 20:09:07 GMT
+recorded_with: VCR 6.2.0

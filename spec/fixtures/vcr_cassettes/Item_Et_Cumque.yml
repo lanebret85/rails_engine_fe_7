@@ -1,0 +1,162 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/items/12
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"cd20dde1d438f6bb2141a55216931b68"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - f7aa076d-7b77-4130-9323-076fcdafd32f
+      X-Runtime:
+      - '0.021883'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.09, sql.active_record;dur=0.81, instantiation.active_record;dur=0.15,
+        process_action.action_controller;dur=13.96
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"12","type":"item","attributes":{"name":"Item Et Cumque","description":"Ducimus
+        id perferendis. Libero ullam odit aut quisquam non. Rem eaque distinctio quos.
+        Eaque nihil odit.","unit_price":395.15,"merchant_id":1}}}'
+  recorded_at: Thu, 26 Oct 2023 20:09:07 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/items/12
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"cd20dde1d438f6bb2141a55216931b68"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - '09dcca86-e1ac-48bd-a831-31a08c4fe0b0'
+      X-Runtime:
+      - '0.004528'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.05, sql.active_record;dur=0.31, instantiation.active_record;dur=0.01,
+        process_action.action_controller;dur=0.66
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"12","type":"item","attributes":{"name":"Item Et Cumque","description":"Ducimus
+        id perferendis. Libero ullam odit aut quisquam non. Rem eaque distinctio quos.
+        Eaque nihil odit.","unit_price":395.15,"merchant_id":1}}}'
+  recorded_at: Thu, 26 Oct 2023 20:09:07 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/items/12
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"cd20dde1d438f6bb2141a55216931b68"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 148b1f89-4169-4d41-8e1a-34d48e259db9
+      X-Runtime:
+      - '0.005796'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.03, sql.active_record;dur=0.32, instantiation.active_record;dur=0.01,
+        process_action.action_controller;dur=0.80
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"12","type":"item","attributes":{"name":"Item Et Cumque","description":"Ducimus
+        id perferendis. Libero ullam odit aut quisquam non. Rem eaque distinctio quos.
+        Eaque nihil odit.","unit_price":395.15,"merchant_id":1}}}'
+  recorded_at: Thu, 26 Oct 2023 20:09:07 GMT
+recorded_with: VCR 6.2.0
