@@ -1,0 +1,162 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/items/10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"0b10eca09b4f185dba1ee09934b0e1d7"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - e0cdbb68-e946-4a6e-b368-a808da9b4df2
+      X-Runtime:
+      - '0.005023'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.04, sql.active_record;dur=0.31, instantiation.active_record;dur=0.02,
+        process_action.action_controller;dur=0.75
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"10","type":"item","attributes":{"name":"Item Quidem
+        Suscipit","description":"Reiciendis sed aperiam culpa animi laudantium. Eligendi
+        veritatis sint dolorem asperiores. Earum alias illum eos non rerum.","unit_price":340.18,"merchant_id":1}}}'
+  recorded_at: Thu, 26 Oct 2023 20:08:36 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/items/10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"0b10eca09b4f185dba1ee09934b0e1d7"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 1c088dd0-e12d-4ecd-9174-c7270f33e95b
+      X-Runtime:
+      - '0.004784'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.03, sql.active_record;dur=0.59, instantiation.active_record;dur=0.02,
+        process_action.action_controller;dur=1.09
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"10","type":"item","attributes":{"name":"Item Quidem
+        Suscipit","description":"Reiciendis sed aperiam culpa animi laudantium. Eligendi
+        veritatis sint dolorem asperiores. Earum alias illum eos non rerum.","unit_price":340.18,"merchant_id":1}}}'
+  recorded_at: Thu, 26 Oct 2023 20:08:36 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/items/10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"0b10eca09b4f185dba1ee09934b0e1d7"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 8ccb2f1b-d037-4b5a-baa2-b0d28fb87e3c
+      X-Runtime:
+      - '0.004189'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.03, sql.active_record;dur=0.27, instantiation.active_record;dur=0.01,
+        process_action.action_controller;dur=0.59
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"10","type":"item","attributes":{"name":"Item Quidem
+        Suscipit","description":"Reiciendis sed aperiam culpa animi laudantium. Eligendi
+        veritatis sint dolorem asperiores. Earum alias illum eos non rerum.","unit_price":340.18,"merchant_id":1}}}'
+  recorded_at: Thu, 26 Oct 2023 20:08:36 GMT
+recorded_with: VCR 6.2.0

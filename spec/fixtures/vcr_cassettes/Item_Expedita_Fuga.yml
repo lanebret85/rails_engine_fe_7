@@ -1,0 +1,165 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/items/7
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"067bed1821f833ec0bcb806f6b5690ca"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 2148bf15-fc6c-4825-870a-f1e2fead4d87
+      X-Runtime:
+      - '0.005873'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.04, sql.active_record;dur=0.32, instantiation.active_record;dur=0.02,
+        process_action.action_controller;dur=0.76
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"7","type":"item","attributes":{"name":"Item Expedita
+        Fuga","description":"Fuga assumenda occaecati hic dolorem tenetur dolores
+        nisi. Est tenetur adipisci voluptatem vel. Culpa adipisci consequatur illo.
+        Necessitatibus quis quo velit sed repellendus ut amet.","unit_price":311.63,"merchant_id":1}}}'
+  recorded_at: Thu, 26 Oct 2023 20:08:36 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/items/7
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"067bed1821f833ec0bcb806f6b5690ca"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - a2b059d6-d769-4589-a8c8-31d291617ff7
+      X-Runtime:
+      - '0.005405'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.04, sql.active_record;dur=0.32, instantiation.active_record;dur=0.01,
+        process_action.action_controller;dur=0.80
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"7","type":"item","attributes":{"name":"Item Expedita
+        Fuga","description":"Fuga assumenda occaecati hic dolorem tenetur dolores
+        nisi. Est tenetur adipisci voluptatem vel. Culpa adipisci consequatur illo.
+        Necessitatibus quis quo velit sed repellendus ut amet.","unit_price":311.63,"merchant_id":1}}}'
+  recorded_at: Thu, 26 Oct 2023 20:08:36 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/items/7
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"067bed1821f833ec0bcb806f6b5690ca"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - a14c4bb5-91db-479b-b8cf-04c7c4e9fa03
+      X-Runtime:
+      - '0.005429'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.03, sql.active_record;dur=0.26, instantiation.active_record;dur=0.01,
+        process_action.action_controller;dur=0.53
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"7","type":"item","attributes":{"name":"Item Expedita
+        Fuga","description":"Fuga assumenda occaecati hic dolorem tenetur dolores
+        nisi. Est tenetur adipisci voluptatem vel. Culpa adipisci consequatur illo.
+        Necessitatibus quis quo velit sed repellendus ut amet.","unit_price":311.63,"merchant_id":1}}}'
+  recorded_at: Thu, 26 Oct 2023 20:08:36 GMT
+recorded_with: VCR 6.2.0

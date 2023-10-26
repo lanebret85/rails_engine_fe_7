@@ -1,11 +1,13 @@
 class Item
   attr_reader :id,
               :name,
-              :merchant_id
+              :description,
+              :unit_price
 
   def initialize(item_info)
     @id = item_info[:id]
     @name = item_info[:attributes][:name]
-    @merchant_id = item_info[:attributes][:merchant_id]
+    @description = item_info[:attributes][:description]
+    @unit_price = item_info[:attributes][:unit_price]
   end
 end

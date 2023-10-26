@@ -1,0 +1,162 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/items/8
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"7ef85c27e3a8834a1d81c4a6c30cf5c7"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 3b9fd32c-30df-4fb0-aff7-392fc0237397
+      X-Runtime:
+      - '0.004824'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.03, sql.active_record;dur=0.36, instantiation.active_record;dur=0.02,
+        process_action.action_controller;dur=0.92
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"8","type":"item","attributes":{"name":"Item Est Consequuntur","description":"Reprehenderit
+        est officiis cupiditate quia eos. Voluptatem illum reprehenderit quo vel eligendi.
+        Et eum omnis id ut aliquid veniam.","unit_price":343.55,"merchant_id":1}}}'
+  recorded_at: Thu, 26 Oct 2023 20:08:36 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/items/8
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"7ef85c27e3a8834a1d81c4a6c30cf5c7"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - cbf68e1e-d81f-4ac9-b65d-d718692aa55f
+      X-Runtime:
+      - '0.006381'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.03, sql.active_record;dur=0.36, instantiation.active_record;dur=0.01,
+        process_action.action_controller;dur=2.39
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"8","type":"item","attributes":{"name":"Item Est Consequuntur","description":"Reprehenderit
+        est officiis cupiditate quia eos. Voluptatem illum reprehenderit quo vel eligendi.
+        Et eum omnis id ut aliquid veniam.","unit_price":343.55,"merchant_id":1}}}'
+  recorded_at: Thu, 26 Oct 2023 20:08:36 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/items/8
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"7ef85c27e3a8834a1d81c4a6c30cf5c7"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 9d910136-b48d-4c7b-824b-66731b93ac74
+      X-Runtime:
+      - '0.006066'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.03, sql.active_record;dur=0.72, instantiation.active_record;dur=0.01,
+        process_action.action_controller;dur=1.43
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"8","type":"item","attributes":{"name":"Item Est Consequuntur","description":"Reprehenderit
+        est officiis cupiditate quia eos. Voluptatem illum reprehenderit quo vel eligendi.
+        Et eum omnis id ut aliquid veniam.","unit_price":343.55,"merchant_id":1}}}'
+  recorded_at: Thu, 26 Oct 2023 20:08:36 GMT
+recorded_with: VCR 6.2.0
